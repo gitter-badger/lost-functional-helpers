@@ -97,7 +97,8 @@ Returns a function that always returns the same value.
     // result -> sequence of values over time: 1,1,1,1,1 ..... as often as clicked
  ```
 
-# Further reading on frp:
+# Further reading on functional reactive programming:
+- [Introduction to frp](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 - [RxJS](http://reactive-extensions.github.io/RxJS/)
 - [BaconJs](https://github.com/baconjs/bacon.js)
 - [RxJs Github](https://github.com/Reactive-Extensions/RxJS)
