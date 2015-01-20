@@ -1,4 +1,4 @@
-# lost: functional-helpers
+# lost-functional-helpers
 
 [![Version](http://img.shields.io/badge/version-0.0.1-green.svg)]()
 [![Build Status](https://travis-ci.org/meandmax/lost-functional-helpers.svg?branch=master)](https://travis-ci.org/meandmax/lost-functional-helpers)
@@ -98,6 +98,6 @@ Returns a function that always returns the same value.
  ```
 
 # Further reading on frp:
-[RxJS](http://reactive-extensions.github.io/RxJS/)
-[BaconJs](https://github.com/baconjs/bacon.js)
-[RxJs Github](https://github.com/Reactive-Extensions/RxJS)
+- [RxJS](http://reactive-extensions.github.io/RxJS/)
+- [BaconJs](https://github.com/baconjs/bacon.js)
+- [RxJs Github](https://github.com/Reactive-Extensions/RxJS)
