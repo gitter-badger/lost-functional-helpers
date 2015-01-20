@@ -5,7 +5,7 @@
 [![devDependency Status](https://david-dm.org/meandmax/lost-functional-helpers/dev-status.svg)](https://david-dm.org/meandmax/lost-functional-helpers#info=devDependencies)
 [![Dependency Status](https://david-dm.org/meandmax/lost-functional-helpers.svg)](https://david-dm.org/meandmax/lost-functional-helpers.svg)
 
-Higher-order functions used on simple collections which provide functions like (.map(), .filter(), .reduce()) to process data. Can also be used in functional reactive programming with data-structures like streams or properties.
+Higher-order functions used on simple arrays or similiar collections which provide functions like (.map(), .filter(), .reduce()) to process data. Can also be used in functional reactive programming with data-structures like streams or properties.
 
 ```
 npm install lost-functional-helpers --save
@@ -16,7 +16,7 @@ npm install lost-functional-helpers --save
  
  Useful for carousels etc, where one should be able to click right and end up in the beginning. Uses the correct modulo operation, not the javascript style.
 
-### with simple arrays:
+#### with simple arrays:
 
 ```js
     var functionalHelpers = require('../functional-helpers.js');
@@ -25,7 +25,7 @@ npm install lost-functional-helpers --save
 
 Can be used with frp libraries (e.g. [Bacon.js](https://github.com/baconjs/bacon.js), [RxJS](https://github.com/Reactive-Extensions/RxJS), [Kefir.js](https://github.com/pozadi/kefir)). Examples are written with Bacon.js 
 
-### in frp:
+#### in frp:
 
 ```js
     var functionalHelpers = require('../functional-helpers.js');
@@ -45,14 +45,14 @@ Returns a function that limits input values to range [min <= x <= max].
 
 Useful for carousels etc without wrapping around (compare `wrap`). Swapping min and max is allowed and will be corrected.
 
-### with simple arrays:
+#### with simple arrays:
 
  ```js
     var functionalHelpers = require('../functional-helpers.js');
     console.log([1,2,3,4,5].map(functionalHelpers.clamp(4))); // [1,2,3,4,4]
  ```
 
-### in frp:
+#### in frp:
 
 ```js
     var functionalHelpers = require('../functional-helpers.js');
@@ -70,14 +70,14 @@ Useful for carousels etc without wrapping around (compare `wrap`). Swapping min 
 ## .constant()
 Returns a function that always returns the same value.
 
-### with simple arrays:
+#### with simple arrays:
 
  ```js
     var functionalHelpers = require('../functional-helpers.js');
     console.log(['click'].map(functionalHelpers.constant(4))); // [4]
  ```
 
-### in frp:
+#### in frp:
 
  ```js
     var functionalHelpers = require('../functional-helpers.js');
@@ -97,7 +97,7 @@ Returns a function that always returns the same value.
     // result -> sequence of values over time: 1,1,1,1,1 ..... as often as clicked
  ```
 
-# Further reading on functional reactive programming:
+#### Further reading on functional reactive programming:
 - [Introduction to frp](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 - [RxJS](http://reactive-extensions.github.io/RxJS/)
 - [BaconJs](https://github.com/baconjs/bacon.js)
