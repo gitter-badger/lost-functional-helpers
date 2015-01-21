@@ -1,5 +1,7 @@
 # lost-functional-helpers
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/meandmax/lost-functional-helpers?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Version](http://img.shields.io/badge/version-0.0.1-green.svg)]()
 [![Build Status](https://travis-ci.org/meandmax/lost-functional-helpers.svg?branch=master)](https://travis-ci.org/meandmax/lost-functional-helpers)
 [![devDependency Status](https://david-dm.org/meandmax/lost-functional-helpers/dev-status.svg)](https://david-dm.org/meandmax/lost-functional-helpers#info=devDependencies)
